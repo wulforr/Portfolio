@@ -7,6 +7,7 @@ export default function ProjectTile({ data }) {
       href={link}
       class="p-4 lg:w-1/2 border-transparent border-2 rounded-lg hover:border-purple-300 "
       target="_blank"
+      rel="noreferrer"
     >
       <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
         <img

@@ -5,7 +5,10 @@ export default function Navbar() {
     <div className="shadow-md sticky top-0 bg-white">
       <header class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap justify-between p-5 flex-row items-center">
-          <a class="flex title-font font-medium items-center text-gray-900 mb-0">
+          <a
+            href="/"
+            class="flex title-font font-medium items-center text-gray-900 mb-0"
+          >
             <svg
               viewBox="0 0 106 106"
               fill="none"

@@ -17,7 +17,7 @@ export default function AboutMe() {
                 <div class="w-30 h-30 rounded-full inline-flex items-center justify-center text-gray-400">
                   <img
                     src={Avatar}
-                    alt="avatar image of shaurya vardhan singh"
+                    alt="avatar of shaurya vardhan singh"
                     class="w-32 h-32 xl:w-48 xl:h-48"
                   />
                 </div>
@@ -42,7 +42,7 @@ export default function AboutMe() {
                   Do let me know if you have some recommendations. I also like
                   to play Rainbow Six Seige game for fun.
                 </p>
-                <a class="text-purple-500 inline-flex items-center">
+                <a href="/" class="text-purple-500 inline-flex items-center">
                   Learn More
                   <svg
                     fill="none"
