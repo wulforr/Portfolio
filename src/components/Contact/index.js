@@ -92,7 +92,8 @@ export default function Contact() {
             {/* <h2 class="text-gray-900 text-lg font-medium title-font mb-5">
               Sign Up
             </h2> */}
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} name="contact" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
               <div class="relative mb-4">
                 <label
                   for="full-name"
