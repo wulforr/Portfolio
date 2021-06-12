@@ -5,22 +5,22 @@ export default function ProjectTile({ data }) {
   return (
     <a
       href={link}
-      class="p-4 lg:w-1/2 border-transparent border-2 rounded-lg hover:border-purple-300 "
+      className="p-4 lg:w-1/2 border-transparent border-2 rounded-lg hover:border-purple-300 "
       target="_blank"
       rel="noreferrer"
     >
-      <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+      <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
         <img
           alt="project"
-          class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+          className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
           src={imgUrl}
         />
-        <div class="flex-grow sm:pl-8">
-          <h2 class="title-font font-medium text-xl text-purple-500">
+        <div className="flex-grow sm:pl-8">
+          <h2 className="title-font font-medium text-xl text-purple-500">
             {title}
           </h2>
-          <h3 class="text-gray-500 mb-3">{technologiesUsed.join(", ")}</h3>
-          <p class="mb-4 px-10 sm:px-0">{description}</p>
+          <h3 className="text-gray-500 mb-3">{technologiesUsed.join(", ")}</h3>
+          <p className="mb-4 px-10 sm:px-0">{description}</p>
         </div>
       </div>
     </a>

@@ -3,19 +3,19 @@ import React from "react";
 export default function Navbar() {
   return (
     <div className="shadow-md sticky top-0 bg-white">
-      <header class="text-gray-600 body-font">
-        <div class="container mx-auto flex flex-wrap justify-between p-5 flex-row items-center">
+      <header className="text-gray-600 body-font">
+        <div className="container mx-auto flex flex-wrap justify-between p-5 flex-row items-center">
           <a
-            href="/"
-            class="flex title-font font-medium items-center text-gray-900 mb-0"
+            href="/#"
+            className="flex title-font font-medium items-center text-gray-900 mb-0"
           >
             <svg
               viewBox="0 0 106 106"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              class="w-10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              className="w-10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path
                 fillRule="evenodd"
@@ -25,22 +25,24 @@ export default function Navbar() {
                 strokeWidth="5"
               />
             </svg>
-            <span class="ml-3 text-xl">Wulfor</span>
+            <span className="ml-3 text-xl">Wulfor</span>
           </a>
-          <button class="inline-flex items-center bg-gray-200 border-0 py-2 px-3 focus:outline-none hover:bg-purple-500 hover:text-white rounded text-base mt-0">
-            Say Hello
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-4 h-4 ml-1"
-              viewBox="0 0 24 24"
-            >
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
+          <a href="/#contactSection">
+            <button className="inline-flex items-center bg-gray-200 border-0 py-2 px-3 focus:outline-none hover:bg-purple-500 hover:text-white rounded text-base mt-0">
+              Say Hello
+              <svg
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                className="w-4 h-4 ml-1"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </button>
+          </a>
         </div>
       </header>
     </div>

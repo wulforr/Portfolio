@@ -46,14 +46,14 @@ export default function Contact() {
   };
 
   return (
-    <div>
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap items-center max-w-6xl">
-          <div class="lg:w-3/6 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-            <h1 class="title-font font-medium text-3xl text-gray-900">
+    <div id="contactSection">
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto flex flex-wrap items-center max-w-6xl">
+          <div className="lg:w-3/6 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 className="title-font font-medium text-3xl text-gray-900">
               Get in Touch!
             </h1>
-            <p class="leading-relaxed mt-4 mb-8">
+            <p className="leading-relaxed mt-4 mb-8">
               Just want to say hello, ask a question, tell me a joke or get
               together for a coffee whatever it is I am interested to get in
               touch with you.
@@ -93,16 +93,16 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <div class="lg:w-2/5 md:w-1/2 bg-gray-100 rounded-lg p-8 pb-5 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-            {/* <h2 class="text-gray-900 text-lg font-medium title-font mb-5">
+          <div className="lg:w-2/5 md:w-1/2 bg-gray-100 rounded-lg p-8 pb-5 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+            {/* <h2 className="text-gray-900 text-lg font-medium title-font mb-5">
               Sign Up
             </h2> */}
             <form onSubmit={handleSubmit} name="contact" data-netlify="true">
               <input type="hidden" name="form-name" value="contact" />
-              <div class="relative mb-4">
+              <div className="relative mb-4">
                 <label
-                  for="full-name"
-                  class="leading-7 text-sm text-gray-600 text-left w-full float-left"
+                  htmlFor="full-name"
+                  className="leading-7 text-sm text-gray-600 text-left w-full float-left"
                 >
                   Full Name
                 </label>
@@ -112,13 +112,13 @@ export default function Contact() {
                   name="full-name"
                   value={fullName}
                   onChange={(e) => setFullName(e.target.value)}
-                  class="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
-              <div class="relative mb-4">
+              <div className="relative mb-4">
                 <label
-                  for="email"
-                  class="leading-7 text-sm text-gray-600 text-left w-full float-left"
+                  htmlFor="email"
+                  className="leading-7 text-sm text-gray-600 text-left w-full float-left"
                 >
                   Email
                 </label>
@@ -128,13 +128,13 @@ export default function Contact() {
                   name="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  class="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
-              <div class="relative mb-4">
+              <div className="relative mb-4">
                 <label
-                  for="message"
-                  class="leading-7 text-sm text-gray-600 text-left w-full float-left"
+                  htmlFor="message"
+                  className="leading-7 text-sm text-gray-600 text-left w-full float-left"
                 >
                   Message
                 </label>
@@ -143,12 +143,12 @@ export default function Contact() {
                   name="message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  class="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
               <button
                 type="submit"
-                class="text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg"
+                className="text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg"
               >
                 Send Message
                 <RiMailSendFill className="-mt-0.5 inline ml-2" />
