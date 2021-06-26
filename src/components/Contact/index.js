@@ -63,7 +63,7 @@ export default function Contact() {
                 href="https://twitter.com/wulforr"
                 target="_blank"
                 rel="noreferrer"
-                className="border border-2 rounded-lg border-gray-200 p-3 m-2 text-2xl text-blue-400 hover:bg-blue-400 hover:text-white"
+                className="border border-2 transition duration-500 ease-in-out rounded-lg border-gray-200 p-3 m-2 text-2xl text-blue-400 hover:bg-blue-400 hover:text-white"
               >
                 <FaTwitter />
               </a>
@@ -71,7 +71,7 @@ export default function Contact() {
                 href="https://github.com/wulforr"
                 target="_blank"
                 rel="noReferrer"
-                className="border border-2 rounded-lg border-gray-200 p-3 m-2 text-2xl  text-gray-800 hover:bg-gray-800 hover:text-white"
+                className="border border-2 transition duration-500 ease-in-out rounded-lg border-gray-200 p-3 m-2 text-2xl  text-gray-800 hover:bg-gray-800 hover:text-white"
               >
                 <FaGithub />
               </a>
@@ -79,7 +79,7 @@ export default function Contact() {
                 href="mailto:gsshaurya@gmail.com"
                 target="_blank"
                 rel="noReferrer"
-                className="border border-2 rounded-lg border-gray-200 p-3 m-2 text-2xl text-red-500 hover:bg-red-500 hover:text-white"
+                className="border border-2 transition duration-500 ease-in-out rounded-lg border-gray-200 p-3 m-2 text-2xl text-red-500 hover:bg-red-500 hover:text-white"
               >
                 <IoIosMail />
               </a>
@@ -87,7 +87,7 @@ export default function Contact() {
                 href="https://www.linkedin.com/in/shaurya-vardhan-singh/"
                 target="_blank"
                 rel="noReferrer"
-                className="border border-2 rounded-lg border-gray-200 p-3 m-2 text-2xl  text-blue-500 hover:bg-blue-500 hover:text-white"
+                className="border border-2 transition duration-500 ease-in-out rounded-lg border-gray-200 p-3 m-2 text-2xl  text-blue-500 hover:bg-blue-500 hover:text-white"
               >
                 <FaLinkedin />
               </a>

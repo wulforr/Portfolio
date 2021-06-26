@@ -5,7 +5,7 @@ export default function ProjectTile({ data }) {
   return (
     <a
       href={link}
-      className="p-4 lg:w-1/2 border-transparent border-2 rounded-lg hover:border-purple-300 "
+      className="p-4 lg:w-1/2 border-transparent border-2 rounded-lg hover:bg-gray-100 hover:shadow-sm "
       target="_blank"
       rel="noreferrer"
     >
@@ -20,7 +20,7 @@ export default function ProjectTile({ data }) {
             {title}
           </h2>
           <h3 className="text-gray-500 mb-3">{technologiesUsed.join(", ")}</h3>
-          <p className="mb-4 px-10 sm:px-0">{description}</p>
+          <p className="mb-4 sm:px-0">{description}</p>
         </div>
       </div>
     </a>
