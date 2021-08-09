@@ -11,7 +11,8 @@ export default function LandingPage() {
               Shaurya Vardhan Singh
             </h1>
             <p className="mb-8 leading-relaxed">
-              I design and code beautifully simple things, and I love what I do.
+              I am a fullstack web developer with a knack for building
+              responsive web applications.
             </p>
             <div className="flex justify-center">
               <a href="/#contactSection">

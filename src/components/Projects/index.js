@@ -34,7 +34,7 @@ export default function Projects() {
       id: 4,
       title: "Farmistan",
       imgUrl: "Farmistan.png",
-      technologiesUsed: ["ReactJS", "Firebase"],
+      technologiesUsed: ["ReactJS", "ReactBootstrap", "Firebase"],
       description:
         "An e-commerce website to sell agricultural and dairy related products along with its admin portal for catalogue, discounts etc.",
       link: "https://farmistan.in/",
